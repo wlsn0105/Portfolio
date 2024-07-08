@@ -1,9 +1,10 @@
 import "./App.css";
+import Test from "./components/Test.jsx";
 
 function App() {
     return (
-        <div className="App">
-            <div>안녕하세요</div>
+        <div>
+            <Test />
         </div>
     );
 }
