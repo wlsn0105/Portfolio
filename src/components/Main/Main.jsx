@@ -1,13 +1,15 @@
 import React from "react"
-import styles from './styles/Main.css'
+import './styles/Main.css'
+import IntroductionSection from '../IntroductionSection/IntroductionSection.jsx'
+
 
 export default function Main() {
     
     return (
         <div>
-            <h1>
-                안녕하세요
-            </h1>
+            <IntroductionSection>
+            </IntroductionSection>
+            다음 섹션
         </div>
     )
 }
