@@ -1,10 +1,10 @@
 import "./App.css";
-import Test from "./components/Test.jsx";
+import Index from "./pages/index.jsx";
 
 function App() {
     return (
         <div>
-            <Test />
+            <Index />
         </div>
     );
 }
