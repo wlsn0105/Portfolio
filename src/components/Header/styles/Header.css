@@ -1,0 +1,21 @@
+.header {
+    height: 6.25rem;
+    border: solid 2px orange;
+}
+
+.header .headerList {
+    height: 6rem;
+    margin: 0 12vw;
+    border: solid 2px red;
+    /* display: flex; */
+}
+
+.header .headerList .headerLogo {
+    border: solid 2px blue;
+    height: 6rem;
+}
+
+.header .headerList .headerLogo .mimoticonImg {
+    border: solid 2px black;
+    width: 6rem;
+}
