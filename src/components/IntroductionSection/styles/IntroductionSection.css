@@ -1,5 +1,26 @@
 .introductionSection {
     width: 100vw;
     height: 100vh;
-    border: solid 1px violet;
+}
+
+.introductionSection .introductionContainer {
+    /* border: solid 2px rebeccapurple; */
+    margin: 0 12vw;
+    height: 100vh;
+    /* display: flex;
+    flex-direction: row; */
+}
+
+.introductionSection .introductionContainer .introductionBox {
+    /* border: solid 1px orange; */
+    display: flex;
+    justify-content: center;
+}
+
+.introductionSection .introductionContainer .myphotoImg {
+    /* border: solid 2px red; */
+    width: 30rem;
+    filter: brightness(50%);
+    border-radius: 2rem;
+    margin-right: 2rem;
 }
