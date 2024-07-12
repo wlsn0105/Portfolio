@@ -1,5 +1,5 @@
 .header {
-    height: 6.25rem;
+    height: 6rem;
     border: solid 2px orange;
 }
 
@@ -7,15 +7,33 @@
     height: 6rem;
     margin: 0 12vw;
     border: solid 2px red;
-    /* display: flex; */
+    display: flex;
+    align-items: center;
 }
 
 .header .headerList .headerLogo {
-    border: solid 2px blue;
-    height: 6rem;
+    /* border: solid 2px blue; */
+    height: 4rem;
 }
 
-.header .headerList .headerLogo .mimoticonImg {
-    border: solid 2px black;
-    width: 6rem;
+.header .headerList .headerLogo .logoIconImg {
+    /* border: solid 2px black; */
+    height: 4rem;
+}
+
+.header .headerList .headerMenu {
+    border: solid 1px brown;
+}
+
+.header .headerList .headerMenuContainer {
+    /* border: solid 1px blue; */
+    display: flex;
+}
+
+.header .headerList .headerMenuContainer .headerMenuText {
+    /* border: solid 1px black; */
+    list-style-type: none;
+    margin: 0 1.5rem;
+    font-size: 1.3rem;
+    font-family: "paybooc-Medium";
 }
