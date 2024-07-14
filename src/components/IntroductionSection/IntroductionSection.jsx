@@ -4,14 +4,19 @@ import './styles/IntroductionSection.css'
 import myphoto from '../../assets/images/myphoto.JPG'
 
 export default function IntroductionSection() {
-    return (
-        <div className="introductionSection">
-            <div className="introductionContainer">
-                <div className="introductionBox">
-                    <img src={myphoto} alt="myphoto" className="myphotoImg"/>
-                    <Introduction />
+
+        return (
+            <div className="introductionSection">
+                <div className="introductionContainer">
+                    <div className="introductionBox">
+                        <img src={myphoto} alt="myphoto" className="myphotoImg" />
+                        <Introduction />
+                    </div>
+                    <div className="test">
+                        <p className="text">ddddddddwdadawdawdawddd</p>
+                        
+                    </div>
                 </div>
             </div>
-        </div>
-    )
-}
+        )
+    }

@@ -1,26 +1,46 @@
 .introductionSection {
+    /* border: solid 1px red; */
     width: 100vw;
-    height: 100vh;
+    height: calc(100vh - 6rem);
 }
 
 .introductionSection .introductionContainer {
     /* border: solid 2px rebeccapurple; */
     margin: 0 12vw;
-    height: 100vh;
-    /* display: flex;
-    flex-direction: row; */
+    height: calc(100vh - 6rem);
+    padding-top: 6rem;
 }
 
 .introductionSection .introductionContainer .introductionBox {
-    /* border: solid 1px orange; */
+    border: solid 1px orange;
     display: flex;
     justify-content: center;
+    padding: 0 10rem;
 }
 
 .introductionSection .introductionContainer .myphotoImg {
     /* border: solid 2px red; */
     width: 30rem;
+    height: 34rem;
     filter: brightness(50%);
     border-radius: 2rem;
-    margin-right: 2rem;
+    margin-right: 4rem;
+}
+
+.text {
+    width: 400px;
+    border: solid 1px black;
+    animation: qqq 0.5s ease-in forwards;
+    animation-delay: calc(0.04s * var(--index));
+}
+
+@keyframes qqq {
+    0% {
+        /* transform: translate(0, 0); */
+        opacity: 0;
+    }
+    100% {
+        /* transform: translate(100px, 100px); */
+        opacity: 1;
+    }
 }

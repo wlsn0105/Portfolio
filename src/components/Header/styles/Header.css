@@ -1,6 +1,7 @@
 .header {
     height: 6rem;
-    border: solid 2px orange;
+    /* border: solid 2px orange; */
+    border-bottom: solid 1px #e5e5e5;
 }
 
 .header .headerList {
@@ -25,6 +26,7 @@
 .header .headerList .headerMenu {
     /* border: solid 1px brown; */
     display: flex;
+    color: #222;
 }
 
 .header .headerList .headerMenu .headerMenuContainer {

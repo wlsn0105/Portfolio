@@ -1,0 +1,16 @@
+#introduce {
+    color: #222;
+}
+
+.introduceTitle {
+    border: solid 1px black;
+    width: 500px;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.introduceSub {
+    border: solid 1px blue;
+    color: #555;
+    /* font-family: "paybooc-light"; */
+}
