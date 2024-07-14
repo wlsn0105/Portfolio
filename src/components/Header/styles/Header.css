@@ -6,9 +6,10 @@
 .header .headerList {
     height: 6rem;
     margin: 0 12vw;
-    border: solid 2px red;
+    /* border: solid 2px red; */
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .header .headerList .headerLogo {
@@ -22,15 +23,16 @@
 }
 
 .header .headerList .headerMenu {
-    border: solid 1px brown;
+    /* border: solid 1px brown; */
+    display: flex;
 }
 
-.header .headerList .headerMenuContainer {
+.header .headerList .headerMenu .headerMenuContainer {
     /* border: solid 1px blue; */
     display: flex;
 }
 
-.header .headerList .headerMenuContainer .headerMenuText {
+.header .headerList .headerMenu .headerMenuContainer .headerMenuText {
     /* border: solid 1px black; */
     list-style-type: none;
     margin: 0 1.5rem;
