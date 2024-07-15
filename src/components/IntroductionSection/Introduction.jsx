@@ -5,8 +5,10 @@ import './styles/introduction.css'
 
 const About = () => (
   <section id="introduce">
-    
     <div className='introduceTitle'>
+      <div className='box'>
+
+      </div>
       <IntroductionAnimation>
         사용자&nbsp; 관점을&nbsp; 생각하는
       </IntroductionAnimation> <br></br>
@@ -18,9 +20,24 @@ const About = () => (
       </IntroductionAnimation> 
     </div>
     <div className='introduceSub'>
-    <IntroductionAnimation>
-      설계를 좋아하고 ㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇ
-      </IntroductionAnimation>
+      <span className='introduceContentFirst'>
+        배움에는 끝이 없다고 생각하는
+      </span>
+      <span className='introduceContentFirst'>
+        웹 개발자입니다.
+      </span>
+      <span className='introduceContentSecond'>
+        다양한 프로젝트 및 외주를 진행해왔습니다.
+      </span>
+      <span className='introduceContentSecond'>
+        이런 경험들을 통해 UX/UI 설계부터 개발까지 직접 수행함으로써
+      </span>
+      <span className='introduceContentSecond'>
+        웹 디자인, 위계질서(폰트), 웹 개발 등
+      </span>
+      <span className='introduceContentSecond'>
+        사용자의 관점을 고려하며 개발하는데에 집중하고 있습니다.
+      </span>
     </div>
   </section>
 );

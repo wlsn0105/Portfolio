@@ -20,7 +20,7 @@ const AnimatedTextContainer = styled.div`
   span {
     opacity: 0;
     display: inline-block;
-    animation: ${fadeInText} 0.7s ease-in forwards;
+    animation: ${fadeInText} 0.8s ease-in forwards;
     /* 애니메이션의 지연 시간을 글자의 순서에 따라 달리 설정 */
     animation-delay: calc(0.04s * var(--index));
   }
