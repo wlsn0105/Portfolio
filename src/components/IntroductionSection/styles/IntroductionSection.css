@@ -5,14 +5,14 @@
 }
 
 .introductionSection .introductionContainer {
-    /* border: solid 2px rebeccapurple; */
+    border: solid 2px rebeccapurple;
     margin: 0 12vw;
     height: calc(100vh - 6rem);
     padding-top: 6rem;
 }
 
 .introductionSection .introductionContainer .introductionBox {
-    border: solid 1px orange;
+    /* border: solid 1px orange; */
     display: flex;
     justify-content: center;
     padding: 0 10rem;
@@ -25,22 +25,41 @@
     filter: brightness(50%);
     border-radius: 2rem;
     margin-right: 4rem;
+    animation: myphotoImg-Ani 1.2s forwards;
+    opacity: 0;
+    /* transform-origin: left; */
 }
 
-.text {
-    width: 400px;
-    border: solid 1px black;
-    animation: qqq 0.5s ease-in forwards;
-    animation-delay: calc(0.04s * var(--index));
-}
-
-@keyframes qqq {
-    0% {
-        /* transform: translate(0, 0); */
+@keyframes myphotoImg-Ani {
+    from {
         opacity: 0;
+        /* transform: scaleX(0); */
+        transform: rotateY(-180deg);
     }
-    100% {
-        /* transform: translate(100px, 100px); */
+    to {
         opacity: 1;
+        /* transform: scaleX(100%); */
+        transform: rotateY(0);
+    }
+}
+
+.introductionSection .introductionContainer .scrollAnimation {
+    /* border: solid 1px black; */
+    width: 2rem;
+    rotate: 180deg;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 6rem;
+    animation: scroll-Ani 0.8s cubic-bezier(0.37, 0.01, 0.63, 0.99) infinite alternate;
+}
+
+@keyframes scroll-Ani {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(32px);
     }
 }
