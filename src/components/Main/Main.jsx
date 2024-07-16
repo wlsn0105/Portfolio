@@ -9,7 +9,7 @@ export default function Main() {
     return (
         <div>
             <Header />
-            <div className="container">
+            <div className="section">
                 <IntroductionSection>
                 </IntroductionSection>
                 <AboutMeSection />
