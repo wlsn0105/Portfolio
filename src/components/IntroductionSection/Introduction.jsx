@@ -37,6 +37,9 @@ const About = () => (
         사용자의 관점을 고려하며 개발하는 데에 집중하고 있습니다.
       </span>
     </div>
+    <div className='nameLogo'>
+      <p className='nameLogoText'>Park Jinwoo</p>
+    </div>
   </section>
 );
 
