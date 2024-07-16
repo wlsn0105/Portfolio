@@ -1,12 +1,12 @@
 .introductionSection {
     /* border: solid 1px red; */
-    width: 100vw;
+    /* width: 100vw; */
     height: calc(100vh - 6rem);
 }
 
 .introductionSection .introductionContainer {
     border: solid 2px rebeccapurple;
-    margin: 0 12vw;
+    /* margin: 0 12vw; */
     height: calc(100vh - 6rem);
     padding-top: 6rem;
 }
