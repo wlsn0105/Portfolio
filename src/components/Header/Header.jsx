@@ -10,7 +10,7 @@ export default function Header() {
                 </div>
                 <div className='headerMenu'>
                     <ul className='headerMenuContainer'>
-                        <li className='headerMenuText'>ABOUT</li>
+                        <li className='headerMenuText'>ABOUT ME</li>
                         <li className='headerMenuText'>ABOUT</li>
                         <li className='headerMenuText'>ABOUT</li>
                     </ul>
