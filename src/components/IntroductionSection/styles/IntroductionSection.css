@@ -12,7 +12,7 @@
 }
 
 .introductionSection .introductionContainer .introductionBox {
-    border: solid 1px orange;
+    /* border: solid 1px orange; */
     height: 100%;
     display: flex;
     justify-content: center;
