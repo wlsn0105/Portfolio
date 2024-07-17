@@ -1,7 +1,7 @@
 .header {
     width: 100vw;
     height: 6rem;
-    border: solid 2px orange;
+    /* border: solid 2px orange; */
     border-bottom: solid 1px #e5e5e5;
     position: fixed;
     z-index: 1;
@@ -44,3 +44,12 @@
     font-size: 1.3rem;
     font-family: "paybooc-Medium";
 }
+
+/* .headerProgressBar {
+    width: 100vw;
+    height: 4px;
+    border: solid 1px black;
+    background-color: red;
+    position: absolute;
+    margin-top: calc(6rem + 1px);
+} */

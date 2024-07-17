@@ -1,0 +1,11 @@
+.portfolioSection {
+    border: solid 1px black;
+    margin: 0 12vw;
+    height: calc(100vh - 6rem);
+}
+
+.portfolioSection .portfolioTitle {
+    width: 100%;
+    height: 50px;
+    background-color: aliceblue;
+}
