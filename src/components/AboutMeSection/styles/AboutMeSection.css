@@ -24,13 +24,14 @@
     justify-content: center;
     font-size: 2rem;
 }
+
 .aboutMeSection .aboutMeContainer .containerHeader h2 {
     /* text-shadow: 0px 0px 10px blue; */
     /* color: white; */
 }
 
 .aboutMeSection .aboutMeContainer .containerBox {
-    border: solid 2px red;
+    /* border: solid 2px red; */
     height: 75%;
     display: flex;
 }
@@ -47,7 +48,7 @@
 }
 
 .aboutMeSection .aboutMeContainer .containerBox .containerLeft .containerLeftBox {
-    border: solid 1px red;
+    /* border: solid 1px red; */
     width: 460px;
     /* display: flex;
     flex-direction: column; */
@@ -60,6 +61,17 @@
     font-size: 1.5rem;
     margin-bottom: 2rem;
 }
+
+.aboutMeSection .aboutMeContainer .containerBox .containerLeft .containerLeftName .headerColorBox {
+    width: 84px;
+    height: 20px;
+    /* border: solid 1px black; */
+    border-radius: 16px 0 16px 0;
+    background-color: #fff3b2;
+    display: flex;
+    align-items: center;
+}
+
 .aboutMeSection .aboutMeContainer .containerBox .containerLeft .containerLeftContent {
     display: flex;
     flex-direction: column;
@@ -84,8 +96,9 @@
 
 .aboutMeSection .aboutMeContainer .containerBox .containerRight {
     /* border: solid 1px blue; */
-    border-left: solid 1px black;
+    border-left: solid 1px #e5e5e5;
     width: 50%;
+    height: 90%;
     display: flex;
     align-items: center;
     justify-content: center;

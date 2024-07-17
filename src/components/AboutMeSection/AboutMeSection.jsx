@@ -15,7 +15,11 @@ export default function AboutMeSection() {
                     <div className="containerLeft">
                         <div className="containerLeftBox">
                             <div className="containerLeftName">
-                                <h3>박진우</h3>
+                                <h3>
+                                    <div className="headerColorBox">
+                                        박진우
+                                    </div>
+                                </h3>
                             </div>
                             <div className="containerLeftContent">
                                 <span>안녕하세요!</span>
@@ -38,7 +42,7 @@ export default function AboutMeSection() {
                             </div>
                             <div className="containerLeftContent">
                                 <span>팀원들과의 소통을 굉장히 중요하게 생각하여</span>
-                                <span>활발한 프로젝트를 진행할 수 있습니다.</span>
+                                <span>협업 간 활발한 프로젝트를 진행할 수 있습니다.</span>
                             </div>
                         </div>
                     </div>

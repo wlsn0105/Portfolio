@@ -1,14 +1,15 @@
 .introductionSection {
     /* border: solid 1px red; */
     width: 100vw;
-    height: calc(100vh - 6rem);
+    height: 100vh;
 }
 
 .introductionSection .introductionContainer {
     /* border: solid 2px rebeccapurple; */
     margin: 0 12vw;
     height: calc(100vh - 6rem);
-    padding-top: 4rem;
+    padding-top: 10rem;
+    /* margin-top: 6rem; */
 }
 
 .introductionSection .introductionContainer .introductionBox {

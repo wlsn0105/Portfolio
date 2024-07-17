@@ -13,7 +13,7 @@ export default function Skills() {
         <div className="skillToolContainer">
             <div className="skillContainer">
                 <div className="skillContainerTitle">
-                    <h3>Skills</h3>
+                    <h3><div className="titleColorBox">Skills</div></h3>
                 </div>
                 <div className="skillIcons">
                     <img src={htmlIcon} alt="htmlIcon" className="htmlIconImg" />
@@ -24,7 +24,7 @@ export default function Skills() {
             </div>
             <div className="toolsContainer">
                 <div className="toolsContainerTitle">
-                    <h3>Tools</h3>
+                    <h3><div className="titleColorBox">Tools</div></h3>
                 </div>
                 <div className="toolsIcons">
                     <img src={vscodeIcon} alt="vscodeIcon" className="vscodeIconImg" />
