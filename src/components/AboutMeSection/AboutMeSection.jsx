@@ -1,5 +1,6 @@
 import React from "react"
 import './styles/AboutMeSection.css'
+import Skills from './Skills.jsx'
 
 export default function AboutMeSection() {
     return (
@@ -36,12 +37,13 @@ export default function AboutMeSection() {
                                 </span>
                             </div>
                             <div className="containerLeftContent">
-                                <span>sddd</span>
+                                <span>팀원들과의 소통을 굉장히 중요하게 생각하여</span>
+                                <span>활발한 프로젝트를 진행할 수 있습니다.</span>
                             </div>
                         </div>
                     </div>
                     <div className="containerRight">
-                        오른쪽
+                        <Skills />
                     </div>
                 </div>
             </div>

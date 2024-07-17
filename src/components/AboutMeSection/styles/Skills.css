@@ -1,0 +1,31 @@
+.skillToolContainer {
+    border: solid 1px blue;
+    width: 460px;
+    height: 50%;
+    /* margin: auto; */
+    /* margin-top: 2rem; */
+}
+
+.skillContainer {
+    border: solid 1px black;
+    /* width: 460px; */
+    /* margin: 0 auto; */
+    margin-bottom: 2rem;
+}
+
+.skillContainer .skillContainerTitle,
+.toolsContainerTitle {
+    border: solid 1px red;
+    font-size: 1.5rem;
+}
+
+.skillContainer .skillIcons,
+.toolsIcons {
+    border: solid 1px green;
+    display: flex;
+}
+.skillContainer .skillIcons img,
+.toolsIcons img {
+    width: 4rem;
+    margin: 0 auto;
+}
