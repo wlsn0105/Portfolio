@@ -15,7 +15,7 @@ export default function Header() {
                     <ul className='headerMenuContainer'>
                         <li className='headerMenuText'>ABOUT ME</li>
                         <li className='headerMenuText'>PROJECT</li>
-                        <li className='headerMenuText'>ABOUT</li>
+                        <li className='headerMenuText'>CONTACT</li>
                     </ul>
                 </div>
             </div>

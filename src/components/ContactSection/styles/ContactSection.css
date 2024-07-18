@@ -1,0 +1,38 @@
+.contactSection {
+    border: solid 1px black;
+    margin: 0 12vw;
+    height: calc(100vh - 6rem);
+}
+
+.contactSection .contactSectionTitle {
+    border: solid 1px red;
+    width: 100%;
+    height: 25%;
+    /* background-color: aliceblue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    /* margin: 2rem 0; */
+}
+
+.contactSection .contactContainer {
+    border: solid 1px blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactSection .contactContainer .myphotoImg {
+    width: 22rem;
+    height: 30rem;
+    border-radius: 8rem;
+    border: solid 1px blue;
+    margin-right: 4rem;
+}
+
+.contactSection .contactContainer .containerText {
+    font-size: 20px;
+}
+.contactSection .contactContainer .containerText span {
+}
