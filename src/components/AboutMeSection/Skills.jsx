@@ -5,6 +5,7 @@ import javascriptIcon from '../../assets/images/javascriptIcon.png'
 import cssIcon from '../../assets/images/cssIcon.png'
 import reactIcon from '../../assets/images/reactIcon.png'
 import vscodeIcon from '../../assets/images/vscodeIcon.png'
+import gitIcon from '../../assets/images/gitIcon.png'
 import figmaIcon from '../../assets/images/figmaIcon.png'
 import indesignIcon from '../../assets/images/indesignIcon.png'
 
@@ -28,6 +29,7 @@ export default function Skills() {
                 </div>
                 <div className="toolsIcons">
                     <img src={vscodeIcon} alt="vscodeIcon" className="vscodeIconImg" />
+                    <img src={gitIcon} alt="gitIcon" className="gitIconImg" />
                     <img src={figmaIcon} alt="figmaIcon" className="figmaIconImg" />
                     <img src={indesignIcon} alt="indesignIcon" className="indesignIconImg" />
                 </div>

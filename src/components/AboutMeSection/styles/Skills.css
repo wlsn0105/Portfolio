@@ -49,6 +49,7 @@
     padding: 1rem;
     display: flex;
 }
+
 .skillContainer .skillIcons img,
 .toolsIcons img {
     width: 5rem;
