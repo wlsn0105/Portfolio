@@ -6,12 +6,13 @@ import phoneIcon from '../../assets/images/phoneIcon.png'
 
 export default function ContactSection() {
     return (
-        <div className="contactSection">
-            <div className="contactSectionTitle">
-                <h2>CONTACT</h2>
-            </div>
-            <div className="contactContainer">
-                <img src={myphoto} alt="myphoto" className="myphotoImg" />
+        <div className="contactParent">
+            <div className="contactSection">
+                <div className="contactSectionTitle">
+                    <h2>CONTACT</h2>
+                </div>
+                <div className="contactContainer">
+                    <img src={myphoto} alt="myphoto" className="myphotoImg" />
                 <div className="containerText">
                     <h3>믿고 맡길 수 있는 개발자가 필요한가요?</h3>
                     <span>팀원들과 소통하며 사용자의 관점을 생각하는 UX 개발자 박진우입니다.</span>
@@ -25,9 +26,10 @@ export default function ContactSection() {
                         <span>010.5743.9692</span>
                     </div>
                 </div>
-            </div>
-            <div className="copyrightContainer">
-                <span className="copyrightText">COPYRIGHT 2024. Park Jinwoo All rights reserved</span>
+                </div>
+                <div className="copyrightContainer">
+                    <span className="copyrightText">COPYRIGHT 2024. Park Jinwoo All rights reserved</span>
+                </div>
             </div>
         </div>
     )

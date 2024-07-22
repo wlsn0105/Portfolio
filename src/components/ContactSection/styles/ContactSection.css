@@ -1,5 +1,9 @@
+.contactParent {
+    background-color: #fafafc;
+}
+
 .contactSection {
-    border: solid 1px black;
+    /* border: solid 1px black; */
     margin: 0 12vw;
     height: calc(100vh - 6rem);
 }
@@ -35,6 +39,8 @@
 .contactSection .contactContainer .containerText {
     display: flex;
     flex-direction: column;
+    width: auto;
+    /* border: solid 1px black; */
 }
 .contactSection .contactContainer .containerText h3 {
     margin-bottom: 1rem;
