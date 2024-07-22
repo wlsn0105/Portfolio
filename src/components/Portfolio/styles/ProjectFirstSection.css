@@ -1,0 +1,16 @@
+.projectFirstSection {
+    border: solid 2px red;
+    height: 75%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.projectFirstSection .projectFirstContainer {
+    border: solid 1px blue;
+    width: 100%;
+}
+
+.projectFirstSection .projectFirstContainer img {
+    width: 40rem;
+}

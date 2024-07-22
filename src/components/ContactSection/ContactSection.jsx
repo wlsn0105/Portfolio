@@ -16,7 +16,7 @@ export default function ContactSection() {
                 <div className="containerText">
                     <h3>믿고 맡길 수 있는 개발자가 필요한가요?</h3>
                     <span>팀원들과 소통하며 사용자의 관점을 생각하는 UX 개발자 박진우입니다.</span>
-                    <span>언제든 연락주세요!☺️</span>
+                    <span>편하실 때 연락주세요!☺️</span>
                     <div className="emailBox">
                         <img src={emailIcon} alt="emailIcon" className="emailIconImg" />
                         <span>pjw96929692@gmail.com</span>
