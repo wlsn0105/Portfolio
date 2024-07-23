@@ -103,3 +103,15 @@
     align-items: center;
     justify-content: center;
 }
+
+.moreAboutMe,
+a:visited,
+a:link {
+    /* border: solid 1px black; */
+    color: #226dd0;
+    text-decoration-line: none;
+}
+a:hover {
+    color: #6326cb;
+    transition: all 0.8s;
+}

@@ -1,11 +1,11 @@
 import React from "react";
-import './styles/PortfolioSection.css'
+import './styles/ProjectSection.css'
 import ProjectFirstSection from "./ProjectFirstSection";
 
-export default function PortfolioSection() {
+export default function ProjectSection() {
     return (
-        <div className="portfolioSection">
-            <div className="portfolioSectionTitle">
+        <div className="projectSection">
+            <div className="projectSectionTitle">
                 <h2>PROJECT</h2>
             </div>
             <ProjectFirstSection />

@@ -73,6 +73,10 @@
     margin-right: 0.5rem;
 }
 
+.contactSection .contactContainer .moreContactMe {
+    margin-top: 1.5rem;
+}
+
 .contactSection .copyrightContainer {
     /* border: solid 2px orange; */
     display: flex;
