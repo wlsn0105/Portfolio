@@ -21,7 +21,7 @@
 }
 
 .projectFirstSection .projectFirstContainer .firstImgBox img {
-    width: 36rem;
+    width: 34rem;
 }
 
 .projectFirstSection .projectFirstContainer .explainBox {
@@ -37,15 +37,19 @@
 }
 
 .projectFirstSection .projectFirstContainer .explainBox h3 {
+    margin-top: 1rem;
     margin-bottom: 1rem;
     display: flex;
     align-items: center;
+    /* width: 100%; */
+    /* border: solid 1px black; */
 }
 .projectFirstSection .projectFirstContainer .explainBox span {
     font-family: "paybooc-Medium";
     font-size: 18px;
     color: #555;
     line-height: 1.6rem;
+    width: 100%;
 }
 
 .projectFirstSection .projectFirstContainer .explainBox .buttonGroup {
