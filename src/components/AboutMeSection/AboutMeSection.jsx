@@ -45,7 +45,7 @@ export default function AboutMeSection() {
                                 <span>협업 간 활발한 프로젝트를 진행할 수 있습니다.</span>
                             </div>
                             <div className="moreAboutMe">
-                                <a href="https://github.com/wlsn0105" target="_blank" rel="noreferrer">더 알아보기 ➡</a>
+                                <a href="https://github.com/wlsn0105" target="_blank" rel="noreferrer" className="moreMe">더 알아보기 ➡</a>
                             </div>
                         </div>
                     </div>

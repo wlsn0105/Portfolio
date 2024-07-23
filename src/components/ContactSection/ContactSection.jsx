@@ -26,7 +26,7 @@ export default function ContactSection() {
                         <span>010.5743.9692</span>
                     </div>
                     <div className="moreContactMe">
-                        <a href="https://wlsn0105.github.io/" target="_blank" rel="noreferrer">기록들 알아보기 ➡</a>
+                        <a href="https://wlsn0105.github.io/" target="_blank" rel="noreferrer" className="moreMe">기록들 알아보기 ➡</a>
                     </div>
                 </div>
                 </div>

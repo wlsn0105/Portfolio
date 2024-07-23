@@ -104,14 +104,13 @@
     justify-content: center;
 }
 
-.moreAboutMe,
-a:visited,
-a:link {
+.moreMe:visited,
+.moreMe:link {
     /* border: solid 1px black; */
     color: #226dd0;
     text-decoration-line: none;
 }
-a:hover {
+.moreMe:hover {
     color: #6326cb;
     transition: all 0.8s;
 }
