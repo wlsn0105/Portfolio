@@ -1,0 +1,25 @@
+.firstDetailSection {
+    /* border: solid 1px black; */
+    width: 100vw;
+    height: 100vh;
+}
+
+.firstDetailSection .detailContainer {
+    border: solid 2px red;
+    margin: 0 12vw;
+    padding-top: 10rem;
+}
+
+.firstDetailSection .detailContainer .detailBox {
+    border: solid 2px purple;
+}
+
+.firstDetailSection .detailContainer .detailBox .detailTitle {
+    display: flex;
+    border: solid 2px orange;
+    align-items: center;
+}
+
+.firstDetailSection .detailContainer .detailBox .detailTitle h2 {
+    font-size: 2rem;
+}
