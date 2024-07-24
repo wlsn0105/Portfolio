@@ -11,15 +11,58 @@
 }
 
 .firstDetailSection .detailContainer .detailBox {
-    border: solid 2px purple;
+    /* border: solid 2px purple; */
 }
 
 .firstDetailSection .detailContainer .detailBox .detailTitle {
     display: flex;
-    border: solid 2px orange;
+    /* border: solid 2px orange; */
     align-items: center;
+    margin-bottom: 1.5rem;
 }
 
 .firstDetailSection .detailContainer .detailBox .detailTitle h2 {
     font-size: 2rem;
+}
+
+.firstDetailSection .detailContainer .detailBox .detailRole {
+    /* border: solid 1px black; */
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.firstDetailSection .detailContainer .detailBox .detailRole h3 {
+    font-size: 1.3rem;
+}
+
+.firstDetailSection .detailContainer .detailBox .detailRole .roleColor {
+    color: #8c43ff;
+    margin-right: 1rem;
+}
+
+.firstDetailSection .detailContainer .detailBox .detailContent span {
+    color: #555;
+    font-family: "paybooc-Medium";
+    font-size: 18px;
+    display: flex;
+    line-height: 1.6rem;
+}
+
+.firstDetailSection .detailContainer .detailBox .detailButton {
+    width: 10rem;
+    height: 2.5rem;
+    margin-top: 1rem;
+    background-color: #fff;
+    color: #8c43ff;
+    border: solid 2px #8c43ff;
+    border-radius: 6px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.firstDetailSection .detailContainer .detailBox .detailButton:hover {
+    transition: all 0.6s;
+    background-color: #8c43ff;
+    color: #fff;
 }

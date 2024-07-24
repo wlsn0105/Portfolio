@@ -11,7 +11,7 @@ function App() {
             {/* <Main /> */}
             <Routes>
                 <Route path="/Portfolio" element={<Main />} />
-                <Route path="/firstDetail" element={<FirstDetail />} />
+                <Route path="/Portfolio/firstDetail" element={<FirstDetail />} />
             </Routes>
         </div>
     );
