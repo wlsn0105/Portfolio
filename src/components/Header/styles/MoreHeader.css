@@ -1,0 +1,55 @@
+.header {
+    width: 100vw;
+    height: 6rem;
+    /* border: solid 2px orange; */
+    border-bottom: solid 1px #e5e5e5;
+    position: fixed;
+    z-index: 1;
+}
+
+.header .headerList {
+    height: 6rem;
+    margin: 0 12vw;
+    /* border: solid 2px red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .headerList .headerLogo {
+    /* border: solid 2px blue; */
+    height: 4rem;
+}
+
+.header .headerList .headerLogo .logoIconImg {
+    /* border: solid 2px black; */
+    height: 4rem;
+}
+
+.header .headerList .headerMenu {
+    /* border: solid 1px brown; */
+    display: flex;
+    color: #222;
+}
+
+.header .headerList .headerMenu .headerMenuContainer {
+    /* border: solid 1px blue; */
+    display: flex;
+}
+
+.header .headerList .headerMenu .headerMenuContainer .headerMenuText {
+    /* border: solid 1px black; */
+    list-style-type: none;
+    margin: 0 1.5rem;
+    font-size: 1.3rem;
+    font-family: "paybooc-Medium";
+}
+
+/* .headerProgressBar {
+    width: 100vw;
+    height: 4px;
+    border: solid 1px black;
+    background-color: red;
+    position: absolute;
+    margin-top: calc(6rem + 1px);
+} */
