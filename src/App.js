@@ -3,7 +3,7 @@ import Main from "./components/Main/Main.jsx";
 import React from "react";
 import "./styles/globals.css";
 import { Route, Routes } from "react-router-dom";
-import FirstDetail from "./components/Project/FirstDetail.jsx";
+import FirstDetail from "./components/Project/ProjectFirstSection/FirstDetail.jsx";
 
 function App() {
     return (

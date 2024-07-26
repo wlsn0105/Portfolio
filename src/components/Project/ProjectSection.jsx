@@ -1,6 +1,6 @@
 import React from "react";
 import './styles/ProjectSection.css'
-import ProjectFirstSection from "./ProjectFirstSection";
+import ProjectFirstSection from "./ProjectFirstSection/ProjectFirstSection"
 
 export default function ProjectSection() {
     return (

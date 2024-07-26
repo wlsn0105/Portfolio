@@ -1,0 +1,29 @@
+.firstUISection {
+    /* border: solid 3px blue; */
+    /* height: calc(100vh - 10rem); */
+}
+
+.firstUISection .uiGroup {
+    /* border: solid 2px black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.firstUISection .uiGroup .uiFirst {
+    /* border: solid 4px brown; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 0;
+}
+.firstUISection .uiGroup .uiFirst img {
+    width: 20rem;
+    margin: 0 2rem;
+}
+
+.firstUISection .uiGroup .jooyajooyagroupImg {
+    width: 100vw;
+    height: calc(100vh -6rem);
+}

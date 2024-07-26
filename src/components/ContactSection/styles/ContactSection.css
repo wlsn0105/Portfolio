@@ -1,5 +1,7 @@
 .contactParent {
     background-color: #fafafc;
+    /* display: flex; */
+    /* border: solid 3px orange; */
 }
 
 .contactSection {
