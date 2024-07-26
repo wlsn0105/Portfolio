@@ -34,7 +34,12 @@ export default function FirstDetail() {
                               더 보기 ➡
                             </button>
                         </a>
-                  </div>
+                        <a href="https://github.com/LDH-Duke/ConsultingSystem-Front" target='_blank' rel="noreferrer">
+                          <button className='detailButton'>
+                            View Code
+                          </button>
+                        </a>
+                </div>
             </div>
               <FirstUI />
               <ContactSection />

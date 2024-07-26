@@ -1,5 +1,9 @@
+.projects {
+    /* border: solid 2px red; */
+}
+
 .projectSection {
-    border: solid 1px black;
+    /* border: solid 1px black; */
     margin: 0 12vw;
     height: calc(100vh - 6rem);
 }

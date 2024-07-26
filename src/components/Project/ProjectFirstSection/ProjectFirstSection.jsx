@@ -41,8 +41,7 @@ export default function ProjectFirstSection() {
                             </a>
                         </div>
                     </div>
-                </div>
-                
+                </div> 
             </div>
         )
     }

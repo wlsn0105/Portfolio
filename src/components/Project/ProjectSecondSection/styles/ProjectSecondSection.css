@@ -1,0 +1,5 @@
+.projectSecondSection {
+    height: calc(100vh -6rem - 25%);
+    border: solid 2px black;
+    margin: 0 12vw;
+}
