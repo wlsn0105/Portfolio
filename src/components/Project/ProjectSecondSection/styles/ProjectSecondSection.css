@@ -3,3 +3,83 @@
     border: solid 2px black;
     margin: 0 12vw;
 }
+
+.projectSecondSection {
+    border: solid 2px red;
+    height: 75%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.projectSecondSection .projectFirstContainer {
+    /* border: solid 1px blue; */
+    /* height: 100%; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projectSecondSection .projectFirstContainer .firstImgBox {
+    /* border: solid 2px orange; */
+    margin-right: 4rem;
+}
+
+.projectSecondSection .projectFirstContainer .firstImgBox img {
+    width: 34rem;
+}
+
+.projectSecondSection .projectFirstContainer .explainBox {
+    /* border: solid 1px black; */
+    font-size: 1.7rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.jooyajooyaImg {
+    width: 12rem;
+    /* border: solid 1px black; */
+}
+
+.projectSecondSection .projectFirstContainer .explainBox h3 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    /* width: 100%; */
+    /* border: solid 1px black; */
+}
+.projectSecondSection .projectFirstContainer .explainBox span {
+    font-family: "paybooc-Medium";
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6rem;
+    width: 100%;
+}
+
+.projectSecondSection .projectFirstContainer .explainBox .buttonGroup {
+    /* border: solid 2px black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 2rem; */
+}
+.projectSecondSection .projectFirstContainer .explainBox .buttonGroup button {
+    width: 10rem;
+    height: 2.5rem;
+    margin-right: 0.5rem;
+    margin-top: 2rem;
+    background-color: #fff;
+    color: #8c43ff;
+    border: solid 2px #8c43ff;
+    border-radius: 6px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.projectSecondSection .projectFirstContainer .explainBox .buttonGroup button:hover {
+    transition: all 0.6s;
+    background-color: #8c43ff;
+    color: #fff;
+}
