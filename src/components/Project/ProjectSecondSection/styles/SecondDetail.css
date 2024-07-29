@@ -55,6 +55,7 @@
 .firstDetailSection .detailContainer .detailBox .detailContent {
     /* border: solid 3px red; */
     display: flex;
+    flex-direction: row;
 }
 
 .firstDetailSection .detailContainer .detailBox .detailContent span {
