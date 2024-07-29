@@ -22,6 +22,8 @@ export default function FirstDetail() {
                         <div className='detailRole'>
                             <h3 className='roleColor'>담당 역할</h3>
                             <h3>UX/UI 설계 및 개발</h3>
+                            <h3 className='roleColor'>기여도</h3>
+                            <h3>UX/UI 설계 및 디자인 100%</h3>
                         </div>
                         <div className='detailContent'>
                             <span>노년층을 타겟으로 한 음성 상담 플랫폼 웹앱 사이트입니다.</span>

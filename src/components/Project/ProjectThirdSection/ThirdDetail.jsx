@@ -22,6 +22,8 @@ export default function thirdDetail() {
                         <div className='detailRole'>
                             <h3 className='roleColor'>담당 역할</h3>
                             <h3>UX/UI 설계</h3>
+                            <h3 className='roleColor'>기여도</h3>
+                            <h3>UX/UI 설계 및 디자인 100%</h3>
                         </div>
                         <div className='detailContent'>
                             <span>경계선 지능인을 타겟으로 한 학습 앱 서비스입니다.</span>
@@ -30,12 +32,12 @@ export default function thirdDetail() {
                             <span>약 700만 명의 경계선 지능인들을 위해</span>
                             <span>성인지 학습, 읽기 및 말하기 학습, 문해력 학습, 진로 탐색으로 학습할 수 있습니다.</span>
                         </div>
-                        <a href="http://turtlelearnlogo.com/" target="_blank" rel="noreferrer">
+                        {/* <a href="http://turtlelearnlogo.com/" target="_blank" rel="noreferrer">
                           <button className='detailButton'>
                               더 보기 ➡
                             </button>
-                        </a>
-                        <a href="https://github.com/LDH-Duke/ConsultingSystem-Front" target='_blank' rel="noreferrer">
+                        </a> */}
+                        <a href="https://github.com/ubsal-net/turtle-learn-front" target='_blank' rel="noreferrer">
                           <button className='detailButton'>
                             View Code
                           </button>

@@ -1,4 +1,4 @@
-.firstDetail {
+.secondDetail {
     /* border: solid 3px red; */
     display: flex;
     flex-direction: column;
@@ -6,7 +6,7 @@
     /* margin-top: 6rem; */
 }
 
-.firstDetailSection {
+.secondDetailSection {
     /* border: solid 5px black; */
     width: 100vw;
     display: flex;
@@ -14,51 +14,51 @@
     margin-top: 6rem;
 }
 
-.firstDetailSection .detailContainer {
+.secondDetailSection .detailContainer {
     /* border: solid 2px red; */
     margin: 0 12vw;
     padding-top: 8rem;
     /* margin-bottom: 3rem; */
 }
 
-.firstDetailSection .detailContainer .detailBox {
+.secondDetailSection .detailContainer .detailBox {
     /* border: solid 2px purple; */
 }
 
-.firstDetailSection .detailContainer .detailBox .detailTitle {
+.secondDetailSection .detailContainer .detailBox .detailTitle {
     display: flex;
     /* border: solid 2px orange; */
     align-items: center;
     margin-bottom: 1.5rem;
 }
 
-.firstDetailSection .detailContainer .detailBox .detailTitle h2 {
+.secondDetailSection .detailContainer .detailBox .detailTitle h2 {
     font-size: 2rem;
 }
 
-.firstDetailSection .detailContainer .detailBox .detailRole {
+.secondDetailSection .detailContainer .detailBox .detailRole {
     /* border: solid 1px black; */
     display: flex;
     align-items: center;
     margin-bottom: 1rem;
 }
 
-.firstDetailSection .detailContainer .detailBox .detailRole h3 {
+.secondDetailSection .detailContainer .detailBox .detailRole h3 {
     font-size: 1.3rem;
-}
-
-.firstDetailSection .detailContainer .detailBox .detailRole .roleColor {
-    color: #8c43ff;
     margin-right: 1rem;
 }
 
-.firstDetailSection .detailContainer .detailBox .detailContent {
+.secondDetailSection .detailContainer .detailBox .detailRole .roleColor {
+    color: #8c43ff;
+}
+
+.secondDetailSection .detailContainer .detailBox .detailContent {
     /* border: solid 3px red; */
     display: flex;
     flex-direction: row;
 }
 
-.firstDetailSection .detailContainer .detailBox .detailContent span {
+.secondDetailSection .detailContainer .detailBox .detailContent span {
     color: #555;
     font-family: "paybooc-Medium";
     font-size: 18px;
@@ -72,7 +72,7 @@
     border-radius: 1rem;
 }
 
-.firstDetailSection .detailContainer .detailBox .detailButton {
+.secondDetailSection .detailContainer .detailBox .detailButton {
     width: 10rem;
     height: 2.5rem;
     margin-top: 1rem;
@@ -85,7 +85,7 @@
     margin-right: 1rem;
 }
 
-.firstDetailSection .detailContainer .detailBox .detailButton:hover {
+.secondDetailSection .detailContainer .detailBox .detailButton:hover {
     transition: all 0.6s;
     background-color: #8c43ff;
     color: #fff;

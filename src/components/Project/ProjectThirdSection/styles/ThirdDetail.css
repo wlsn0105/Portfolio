@@ -45,11 +45,11 @@
 
 .firstDetailSection .detailContainer .detailBox .detailRole h3 {
     font-size: 1.3rem;
+    margin-right: 1rem;
 }
 
 .firstDetailSection .detailContainer .detailBox .detailRole .roleColor {
     color: #8c43ff;
-    margin-right: 1rem;
 }
 
 .firstDetailSection .detailContainer .detailBox .detailContent {
