@@ -12,9 +12,9 @@ root.render(
     <React.StrictMode>
         {/* <Router> */}
         {/* <BrowserRouter basename={process.env.PUBLIC_URL}> */}
-        <HashRouter>
-            <App />
-        </HashRouter>
+        {/* <HashRouter> */}
+        <App />
+        {/* </HashRouter> */}
         {/* </Router> */}
         {/* </BrowserRouter> */}
     </React.StrictMode>
