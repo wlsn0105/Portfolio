@@ -11,19 +11,11 @@
     flex-direction: column;
 }
 
-.firstUISection .uiGroup .uiFirst {
-    /* border: solid 4px brown; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 4rem 0;
-}
-.firstUISection .uiGroup .uiFirst img {
-    width: 20rem;
-    margin: 0 2rem;
+.firstUISection .uiGroup img {
+    width: 100vw;
 }
 
 .firstUISection .uiGroup .jooyajooyagroupImg {
     width: 100vw;
-    height: calc(100vh -6rem);
+    height: calc(100vh - 6rem);
 }

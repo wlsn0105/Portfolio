@@ -1,11 +1,12 @@
 .projectThirdSection {
     height: calc(100vh -6rem - 25%);
-    border: solid 2px black;
+    /* border: solid 2px black; */
     margin: 0 12vw;
+    padding: 3rem;
 }
 
 .projectThirdSection {
-    border: solid 2px red;
+    /* border: solid 2px red; */
     height: 75%;
     display: flex;
     /* justify-content: center; */
@@ -22,7 +23,7 @@
 }
 
 .projectThirdSection .projectFirstContainer .firstImgBox {
-    border: solid 2px orange;
+    /* border: solid 2px orange; */
     margin-right: 4rem;
     display: flex;
 }
@@ -38,7 +39,7 @@
     flex-direction: column;
 }
 
-.gelslogoImg {
+.turtlelearnlogoImg {
     width: 12rem;
     /* border: solid 1px black; */
 }

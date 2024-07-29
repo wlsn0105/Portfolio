@@ -1,19 +1,18 @@
 import React from "react";
 import './styles/SecondUI.css'
-import jooyajooyamain from '../../../assets/images/ProjectSectionImages/jooyajooyamain.png'
-import jooyajooyadetail from '../../../assets/images/ProjectSectionImages/jooyajooyadetail.png'
-import jooyajooyagroup from '../../../assets/images/ProjectSectionImages/jooyajooyagroup.png'
+import gelsgroup1 from '../../../assets/images/ProjectSectionImages/gelsgroup1.png'
+import gelsgroup2 from '../../../assets/images/ProjectSectionImages/gelsgroup2.png'
+import gelsgroup3 from '../../../assets/images/ProjectSectionImages/gelsgroup3.png'
+
 
 export default function SecondUI() {
     return (
             <div className="firstUISection">
                 <div className="uiGroup">
-                    <div className="uiFirst">
-                        <img src={jooyajooyamain} alt="jooyajooyamain" className="jooyajooyamainImg" />
-                        <img src={jooyajooyadetail} alt="jooyajooyadetail" className="jooyajooyadetailImg" />
-                    </div>
-                    {/* <div className="uiSecond"> */}
-                        <img src={jooyajooyagroup} alt="jooyajooyagroup" className="jooyajooyagroupImg" /> 
+                        <img src={gelsgroup1} alt="gelsgroup1" className="gelsgroup1Img" />
+                       <img src={gelsgroup2} alt="gelsgroup2" className="gelsgroup2Img" />
+                        <img src={gelsgroup3} alt="gelsgroup3" className="gelsgroup3Img" />
+                        {/* <img src={jooyajooyagroup} alt="jooyajooyagroup" className="jooyajooyagroupImg" />  */}
                     {/* </div> */}
                 </div>
             </div>

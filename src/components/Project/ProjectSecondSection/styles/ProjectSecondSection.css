@@ -1,11 +1,12 @@
 .projectSecondSection {
     height: calc(100vh -6rem - 25%);
-    border: solid 2px black;
+    /* border: solid 2px black; */
     margin: 0 12vw;
+    padding: 3rem;
 }
 
 .projectSecondSection {
-    border: solid 2px red;
+    /* border: solid 2px red; */
     height: 75%;
     display: flex;
     /* justify-content: center; */
@@ -13,7 +14,7 @@
 }
 
 .projectSecondSection .projectFirstContainer {
-    /* border: solid 1px blue; */
+    /* border: solid 5px blue; */
     /* height: 100%; */
     width: 100%;
     display: flex;
@@ -22,7 +23,7 @@
 }
 
 .projectSecondSection .projectFirstContainer .firstImgBox {
-    border: solid 2px orange;
+    /* border: solid 2px orange; */
     margin-right: 4rem;
     display: flex;
 }
@@ -40,17 +41,25 @@
 
 .gelslogoImg {
     width: 12rem;
+    margin-bottom: 1rem;
     /* border: solid 1px black; */
 }
 
 .projectSecondSection .projectFirstContainer .explainBox h3 {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    /* margin-top: 1rem; */
+    /* margin-bottom: 1rem; */
     display: flex;
     align-items: center;
     /* width: 100%; */
     /* border: solid 1px black; */
 }
+
+.explainBox h3:nth-child(3) {
+    /* border: solid 2px black; */
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
 .projectSecondSection .projectFirstContainer .explainBox span {
     font-family: "paybooc-Medium";
     font-size: 18px;

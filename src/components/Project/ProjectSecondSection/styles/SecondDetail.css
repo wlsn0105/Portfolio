@@ -52,12 +52,23 @@
     margin-right: 1rem;
 }
 
+.firstDetailSection .detailContainer .detailBox .detailContent {
+    /* border: solid 3px red; */
+    display: flex;
+}
+
 .firstDetailSection .detailContainer .detailBox .detailContent span {
     color: #555;
     font-family: "paybooc-Medium";
     font-size: 18px;
     display: flex;
     line-height: 1.6rem;
+}
+
+.gelsprojectImg {
+    width: 24rem;
+    margin-left: 2rem;
+    border-radius: 1rem;
 }
 
 .firstDetailSection .detailContainer .detailBox .detailButton {

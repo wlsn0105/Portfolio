@@ -1,20 +1,16 @@
 import React from "react";
 import './styles/ThirdUI.css'
-import jooyajooyamain from '../../../assets/images/ProjectSectionImages/jooyajooyamain.png'
-import jooyajooyadetail from '../../../assets/images/ProjectSectionImages/jooyajooyadetail.png'
-import jooyajooyagroup from '../../../assets/images/ProjectSectionImages/jooyajooyagroup.png'
+import turtlelearngroup1 from '../../../assets/images/ProjectSectionImages/turtlelearngroup1.png'
+import turtlelearngroup2 from '../../../assets/images/ProjectSectionImages/turtlelearngroup2.png'
+import turtlelearngroup3 from '../../../assets/images/ProjectSectionImages/turtlelearngroup3.png'
 
 export default function ThirdUI() {
     return (
             <div className="firstUISection">
                 <div className="uiGroup">
-                    <div className="uiFirst">
-                        <img src={jooyajooyamain} alt="jooyajooyamain" className="jooyajooyamainImg" />
-                        <img src={jooyajooyadetail} alt="jooyajooyadetail" className="jooyajooyadetailImg" />
-                    </div>
-                    {/* <div className="uiSecond"> */}
-                        <img src={jooyajooyagroup} alt="jooyajooyagroup" className="jooyajooyagroupImg" /> 
-                    {/* </div> */}
+                        <img src={turtlelearngroup1} alt="turtlelearngroup1" className="turtlelearngroup1" />
+                        <img src={turtlelearngroup2} alt="turtlelearngroup2" className="turtlelearngroup2" />
+                        <img src={turtlelearngroup3} alt="turtlelearngroup3" className="turtlelearngroup3" />
                 </div>
             </div>
     )
