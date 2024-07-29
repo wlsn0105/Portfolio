@@ -1,10 +1,13 @@
 import React from "react"
 import './styles/AboutMeSection.css'
 import Skills from './Skills.jsx'
+import { Element } from 'react-scroll';
 
 export default function AboutMeSection() {
     return (
+        <Element name="section1">
         <div className="aboutMeSection">
+            
             <div className="aboutMeContainer">
                 <div className="containerHeader">
                     <h2>
@@ -53,7 +56,8 @@ export default function AboutMeSection() {
                         <Skills />
                     </div>
                 </div>
+                </div>
             </div>
-        </div>
+        </Element>
     ) 
 }

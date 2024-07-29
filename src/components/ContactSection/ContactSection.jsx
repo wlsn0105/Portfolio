@@ -3,9 +3,11 @@ import './styles/ContactSection.css'
 import myphoto from '../../assets/images/myphoto.JPG'
 import emailIcon from '../../assets/images/emailIcon.png'
 import phoneIcon from '../../assets/images/phoneIcon.png'
+import { Element } from 'react-scroll';
 
 export default function ContactSection() {
     return (
+        <Element name="section3">
         <div className="contactParent">
             <div className="contactSection">
                 <div className="contactSectionTitle">
@@ -34,6 +36,7 @@ export default function ContactSection() {
                     <span className="copyrightText">COPYRIGHT 2024. Park Jinwoo All rights reserved</span>
                 </div>
             </div>
-        </div>
+            </div>
+        </Element>
     )
 }
