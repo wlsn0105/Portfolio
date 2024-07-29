@@ -2,6 +2,7 @@ import React from "react";
 import './styles/ProjectSection.css'
 import ProjectFirstSection from "./ProjectFirstSection/ProjectFirstSection"
 import ProjectSecondSection from "./ProjectSecondSection/ProjectSecondSection";
+import ProjectThirdSection from "./ProjectThirdSection/ProjectThirdSection";
 
 export default function ProjectSection() {
     return (
@@ -13,6 +14,7 @@ export default function ProjectSection() {
             <ProjectFirstSection />
         </div>
             <ProjectSecondSection />
+            <ProjectThirdSection />
         </div>
     )
 }

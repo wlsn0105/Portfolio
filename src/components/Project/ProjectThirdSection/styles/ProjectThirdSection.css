@@ -1,10 +1,10 @@
-.projectSecondSection {
+.projectThirdSection {
     height: calc(100vh -6rem - 25%);
     border: solid 2px black;
     margin: 0 12vw;
 }
 
-.projectSecondSection {
+.projectThirdSection {
     border: solid 2px red;
     height: 75%;
     display: flex;
@@ -12,7 +12,7 @@
     align-items: center;
 }
 
-.projectSecondSection .projectFirstContainer {
+.projectThirdSection .projectFirstContainer {
     /* border: solid 1px blue; */
     /* height: 100%; */
     width: 100%;
@@ -21,17 +21,17 @@
     justify-content: center;
 }
 
-.projectSecondSection .projectFirstContainer .firstImgBox {
+.projectThirdSection .projectFirstContainer .firstImgBox {
     border: solid 2px orange;
     margin-right: 4rem;
     display: flex;
 }
 
-.projectSecondSection .projectFirstContainer .firstImgBox img {
+.projectThirdSection .projectFirstContainer .firstImgBox img {
     width: 20rem;
 }
 
-.projectSecondSection .projectFirstContainer .explainBox {
+.projectThirdSection .projectFirstContainer .explainBox {
     /* border: solid 1px black; */
     font-size: 1.7rem;
     display: flex;
@@ -43,7 +43,7 @@
     /* border: solid 1px black; */
 }
 
-.projectSecondSection .projectFirstContainer .explainBox h3 {
+.projectThirdSection .projectFirstContainer .explainBox h3 {
     margin-top: 1rem;
     margin-bottom: 1rem;
     display: flex;
@@ -51,7 +51,7 @@
     /* width: 100%; */
     /* border: solid 1px black; */
 }
-.projectSecondSection .projectFirstContainer .explainBox span {
+.projectThirdSection .projectFirstContainer .explainBox span {
     font-family: "paybooc-Medium";
     font-size: 18px;
     color: #555;
@@ -59,14 +59,14 @@
     width: 100%;
 }
 
-.projectSecondSection .projectFirstContainer .explainBox .buttonGroup {
+.projectThirdSection .projectFirstContainer .explainBox .buttonGroup {
     /* border: solid 2px black; */
     display: flex;
     align-items: center;
     justify-content: center;
     /* padding: 2rem; */
 }
-.projectSecondSection .projectFirstContainer .explainBox .buttonGroup button {
+.projectThirdSection .projectFirstContainer .explainBox .buttonGroup button {
     width: 10rem;
     height: 2.5rem;
     margin-right: 0.5rem;
@@ -79,7 +79,7 @@
     cursor: pointer;
 }
 
-.projectSecondSection .projectFirstContainer .explainBox .buttonGroup button:hover {
+.projectThirdSection .projectFirstContainer .explainBox .buttonGroup button:hover {
     transition: all 0.6s;
     background-color: #8c43ff;
     color: #fff;
