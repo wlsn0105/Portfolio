@@ -6,7 +6,7 @@ import gelslogo from '../../../assets/images/ProjectSectionImages/gelslogo.png'
 export default function ProjectSecondSection() {
 
     const secondDetail = () => {
-        window.open('/Portfolio/secondDetail', '_blank');
+        window.open('/MyPortfolio/secondDetail', '_blank');
         };
 
     return (

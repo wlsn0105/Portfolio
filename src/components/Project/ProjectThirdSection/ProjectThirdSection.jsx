@@ -6,7 +6,7 @@ import turtlelearnlogo from '../../../assets/images/ProjectSectionImages/turtlel
 export default function ProjectThirdSection() {
 
     const thirdDetail = () => {
-        window.open('/Portfolio/thirdDetail', '_blank');
+        window.open('/MyPortfolio/thirdDetail', '_blank');
         };
 
     return (

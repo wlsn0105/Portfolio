@@ -12,10 +12,10 @@ function App() {
         <div>
             {/* <Main /> */}
             <Routes>
-                <Route path="/Portfolio" element={<Main />} />
-                <Route path="/Portfolio/firstDetail" element={<FirstDetail />} />
-                <Route path="/Portfolio/secondDetail" element={<SecondDetail />} />
-                <Route path="/Portfolio/thirdDetail" element={<ThirdDetail />} />
+                <Route path="/MyPortfolio" element={<Main />} />
+                <Route path="/MyPortfolio/firstDetail" element={<FirstDetail />} />
+                <Route path="/MyPortfolio/secondDetail" element={<SecondDetail />} />
+                <Route path="/MyPortfolio/thirdDetail" element={<ThirdDetail />} />
             </Routes>
         </div>
     );
