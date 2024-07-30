@@ -3,9 +3,10 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-// import { HashRouter as Router } from "react-router-dom";
 import { BrowserRouter } from "react-router-dom";
-import { HashRouter } from "react-router-dom";
+import ScrollToTop from "./components/ScrollToTop";
+// import { HashRouter as Router } from "react-router-dom";
+// import { HashRouter } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -13,7 +14,10 @@ root.render(
         {/* <Router> */}
         {/* <BrowserRouter basename={process.env.PUBLIC_URL}> */}
         {/* <HashRouter> */}
-        <App />
+        <BrowserRouter>
+            <ScrollToTop />
+            <App />
+        </BrowserRouter>
         {/* </HashRouter> */}
         {/* </Router> */}
         {/* </BrowserRouter> */}

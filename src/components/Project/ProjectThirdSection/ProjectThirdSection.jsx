@@ -2,12 +2,19 @@ import React from "react";
 import './styles/ProjectThirdSection.css'
 import turtlelearnmain from '../../../assets/images/ProjectSectionImages/turtlelearnmain.png'
 import turtlelearnlogo from '../../../assets/images/ProjectSectionImages/turtlelearnlogo.png'
+import { useNavigate } from "react-router-dom";
 
 export default function ProjectThirdSection() {
 
+    const navigate = useNavigate();
+
     const thirdDetail = () => {
-        window.open('/MyPortfolio/thirdDetail', '_blank');
-        };
+        navigate("/MyPortfolio/thirdDetail");
+    };
+
+    // const thirdDetail = () => {
+    //     window.open('/MyPortfolio/thirdDetail', '_blank');
+    //     };
 
     return (
         <div className="projectThirdSection">

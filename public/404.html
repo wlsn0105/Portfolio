@@ -11,15 +11,15 @@
 
                 // Define the mapping of paths to hash locations
                 const pathMappings = {
-                    "/firstDetail": "/MyPortfolio/#/firstDetail",
-                    "/secondDetail": "/MyPortfolio/#/secondDetail",
-                    "/thirdDetail": "/MyPortfolio/#/thirdDetail",
-                    "/": "/MyPortfolio/#/",
+                    "/firstDetail": "/MyPortfolio/firstDetail",
+                    "/secondDetail": "/MyPortfolio/secondDetail",
+                    "/thirdDetail": "/MyPortfolio/thirdDetail",
+                    "/": "/MyPortfolio/",
                     // Add other path mappings as needed
                 };
 
                 // Default to home if no specific mapping found
-                const redirectTo = pathMappings[path] || "/MyPortfolio/#/";
+                const redirectTo = pathMappings[path] || "/MyPortfolio/";
                 window.location.replace(redirectTo);
             }
 

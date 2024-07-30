@@ -22,9 +22,15 @@
     height: 4rem;
 }
 
+.headerButton {
+    background-color: #fff;
+    border: none;
+}
+
 .header .headerList .headerLogo .logoIconImg {
     /* border: solid 2px black; */
     height: 4rem;
+    cursor: pointer;
 }
 
 .header .headerList .headerMenu {

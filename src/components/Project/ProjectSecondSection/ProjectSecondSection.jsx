@@ -2,13 +2,19 @@ import React from "react";
 import './styles/ProjectSecondSection.css'
 import gelsmain from '../../../assets/images/ProjectSectionImages/gelsmain.png'
 import gelslogo from '../../../assets/images/ProjectSectionImages/gelslogo.png'
+import { useNavigate } from "react-router-dom";
 
 export default function ProjectSecondSection() {
+    
+    const navigate = useNavigate();
 
     const secondDetail = () => {
-        // window.open('/MyPortfolio/secondDetail', '_blank');
-        window.open('/MyPortfolio/secondDetail', '_blank');
-        };
+        navigate("/MyPortfolio/secondDetail");
+    };
+
+    // const secondDetail = () => {
+    //     window.open('/MyPortfolio/secondDetail', '_blank');
+    //     };
 
     return (
         <div className="projectSecondSection">
