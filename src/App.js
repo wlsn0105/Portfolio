@@ -3,6 +3,7 @@ import Main from "./components/Main/Main.jsx";
 import React from "react";
 import "./styles/globals.css";
 import { Route, Routes } from "react-router-dom";
+// import { HashRouter as Router } from "react-router-dom";
 import { BrowserRouter as Router } from "react-router-dom";
 import FirstDetail from "./components/Project/ProjectFirstSection/FirstDetail.jsx";
 import SecondDetail from "./components/Project/ProjectSecondSection/SecondDetail.jsx";
@@ -20,7 +21,7 @@ function App() {
                 <Routes>
                     <Route path="/MyPortfolio" element={<Main />} />
                     {/* <Route path="/MyPortfolio/firstDetail" element={<FirstDetail />} /> */}
-                    <Route path="/MyPortfolio/firstDetail/firstDetail" element={<FirstDetail />} />
+                    <Route path="https://wlsn0105.github.io/MyPortfolio/firstDetail" element={<FirstDetail />} />
                     <Route path="/MyPortfolio/secondDetail" element={<SecondDetail />} />
                     <Route path="/MyPortfolio/thirdDetail" element={<ThirdDetail />} />
                 </Routes>
@@ -32,3 +33,6 @@ function App() {
 }
 
 export default App;
+{
+    /*  */
+}
