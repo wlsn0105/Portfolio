@@ -14,8 +14,7 @@ export default function ProjectFirstSection() {
     // 현재 탭 이동하는 방법    
     
         const firstDetail = () => {
-        // window.open('/MyPortfolio/firstDetail', '_blank');
-        window.open('https://wlsn0105.github.io/MyPortfolio/firstDetail', '_blank');
+        window.open('/MyPortfolio/firstDetail', '_blank');
         };
     
         return (
