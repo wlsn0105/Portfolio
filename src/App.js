@@ -19,7 +19,8 @@ function App() {
                 {/* <HashRouter> */}
                 <Routes>
                     <Route path="/MyPortfolio" element={<Main />} />
-                    <Route path="/MyPortfolio/firstDetail" element={<FirstDetail />} />
+                    {/* <Route path="/MyPortfolio/firstDetail" element={<FirstDetail />} /> */}
+                    <Route path="/MyPortfolio/firstDetail/firstDetail" element={<FirstDetail />} />
                     <Route path="/MyPortfolio/secondDetail" element={<SecondDetail />} />
                     <Route path="/MyPortfolio/thirdDetail" element={<ThirdDetail />} />
                 </Routes>
