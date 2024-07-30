@@ -7,19 +7,19 @@
         <script type="text/javascript">
             // Function to redirect based on the path
             function redirectToCorrectPage() {
-                const path = window.location.pathname;
+                const path = window.location.pathname.replace("/MyPortfolio", ""); // Remove base path
 
-                // Define the mapping of paths to new locations
+                // Define the mapping of paths to hash locations
                 const pathMappings = {
-                    "/MyPortfolio/firstDetail": "/index.html#/MyPortfolio/firstDetail",
-                    "/MyPortfolio/secondDetail": "/index.html#/MyPortfolio/secondDetail",
-                    "/MyPortfolio/thirdDetail": "/index.html#/MyPortfolio/thirdDetail",
-                    "/MyPortfolio": "/index.html#/",
+                    "/firstDetail": "/MyPortfolio/#/firstDetail",
+                    "/secondDetail": "/MyPortfolio/#/secondDetail",
+                    "/thirdDetail": "/MyPortfolio/#/thirdDetail",
+                    "/": "/MyPortfolio/#/",
                     // Add other path mappings as needed
                 };
 
                 // Default to home if no specific mapping found
-                const redirectTo = pathMappings[path] || "/index.html#/";
+                const redirectTo = pathMappings[path] || "/MyPortfolio/#/";
                 window.location.replace(redirectTo);
             }
 
