@@ -23,6 +23,7 @@
 
 .secondDetailSection .detailContainer .detailBox {
     /* border: solid 2px purple; */
+    width: 1100px;
 }
 
 .secondDetailSection .detailContainer .detailBox .detailTitle {
@@ -67,8 +68,8 @@
 }
 
 .gelsprojectImg {
-    width: 24rem;
-    margin-left: 2rem;
+    width: 23rem;
+    margin-left: 5rem;
     border-radius: 1rem;
 }
 

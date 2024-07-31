@@ -29,6 +29,7 @@
     font-size: 1.7rem;
     display: flex;
     flex-direction: column;
+    width: 530px;
 }
 
 .jooyajooyaImg {
@@ -49,7 +50,7 @@
     font-size: 18px;
     color: #555;
     line-height: 1.6rem;
-    width: 100%;
+    /* width: 550px; */
 }
 
 .projectFirstSection .projectFirstContainer .explainBox .buttonGroup {

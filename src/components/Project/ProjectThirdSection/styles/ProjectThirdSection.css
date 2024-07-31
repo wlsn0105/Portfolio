@@ -37,6 +37,7 @@
     font-size: 1.7rem;
     display: flex;
     flex-direction: column;
+    width: 580px;
 }
 
 .turtlelearnlogoImg {

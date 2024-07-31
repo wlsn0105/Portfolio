@@ -76,7 +76,12 @@
 }
 
 .contactSection .contactContainer .moreContactMe {
-    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.moreMe {
+    margin-top: 1rem;
 }
 
 .contactSection .copyrightContainer {

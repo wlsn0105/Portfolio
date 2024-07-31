@@ -35,6 +35,11 @@ export default function ProjectThirdSection() {
                         <span>성인지 학습, 읽기 및 말하기 학습, 문해력 학습, 진로 탐색으로 학습할 수 있습니다.</span>
                         <div className="buttonGroup">
                             <button onClick={thirdDetail}>More</button>
+                            <a href="https://wlsn0105.github.io/project/turtlelearn.html" target="_blank" rel="noreferrer">
+                                <button className="moreFigma">
+                                    문제점 및 개선사항
+                                </button>
+                            </a>
                             <a href="https://www.figma.com/design/6DaeRbRD18g64VQo41XJkN/2024-%EB%94%94%EC%A7%80%ED%84%B8%EA%B2%BD%EC%A7%84%EB%8C%80%ED%9A%8C-UI?node-id=12-49&t=L1Ed7I1oQoJObew4-1" target="_blank" rel="noreferrer">
                                 <button className="moreFigma">
                                     Figma

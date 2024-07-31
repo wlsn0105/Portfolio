@@ -37,8 +37,14 @@ export default function ProjectFirstSection() {
                         <span>업체와 직접 소통하면서 색상부터 시작해서 위계질서를 고려하며 UI,</span>
                         <span>사용자의 관점을 고려하며 UX를 설계하였습니다.</span>
                         <span>웹앱 디자인 및 개발 작업을 진행하며 배포까지 진행하였습니다.</span>
+                        
                         <div className="buttonGroup">
                                 <button onClick={firstDetail}>More</button>
+                            <a href="https://wlsn0105.github.io/project/jooyajooya.html" target="_blank" rel="noreferrer">
+                                <button className="moreFigma">
+                                    문제점 및 개선사항
+                                </button>
+                            </a>
                             <a href="https://www.figma.com/design/XXza63VFx7ITacDHIbjzl6/IMPL?node-id=0-1&t=hQ3XIBEF5wvElIKw-1" target="_blank" rel="noreferrer">
                                 <button className="moreFigma">
                                     Figma

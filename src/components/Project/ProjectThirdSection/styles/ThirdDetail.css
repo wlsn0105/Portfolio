@@ -23,6 +23,7 @@
 
 .firstDetailSection .detailContainer .detailBox {
     /* border: solid 2px purple; */
+    width: 660px;
 }
 
 .firstDetailSection .detailContainer .detailBox .detailTitle {

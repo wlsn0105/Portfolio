@@ -38,6 +38,11 @@ export default function ProjectSecondSection() {
                     <span>해외 시장은 한국이랑 많이 다르다는 것을 배울 수 있었습니다.</span>
                     <div className="buttonGroup">
                         <button onClick={secondDetail}>More</button>
+                        <a href="https://wlsn0105.github.io/project/gels.html" target="_blank" rel="noreferrer">
+                                <button className="moreFigma">
+                                    문제점 및 개선사항
+                                </button>
+                            </a>
                         <a href="https://www.figma.com/design/n4AzKz7abUamf0wfBPmEsl/GELS?node-id=301-3398&t=6Dvmf5UKNzlzX50w-1" target="_blank" rel="noreferrer">
                             <button className="moreFigma">
                                 Figma
